@@ -1,0 +1,4 @@
+SELECT name
+FROM vm_instance
+INNER JOIN vm_disk_statistics
+ON vm_instance.name=vm_disk_statistics.id;
